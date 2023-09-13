@@ -78,7 +78,7 @@ class MasterSchoolController extends Controller
 
         // Copy source Folder
         // $sourceFolder = dirname(base_path()) . '/internexaschool_clone';
-        $sourceFolder = $schoolPath . '/internexa_update_school';
+        $sourceFolder = $schoolPath . '/internexaschool_clone_new';
 
 
         File::copyDirectory($sourceFolder, $destinationFolder);
