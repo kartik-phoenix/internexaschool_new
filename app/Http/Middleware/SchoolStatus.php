@@ -18,13 +18,13 @@ class SchoolStatus
      */
     public function handle(Request $request, Closure $next)
     {
-        return $next($request);
+        // return $next($request);
               // Database configuration
                 $databaseConfig = [
                     'driver' => 'mysql',
                     'host' => env('DB_HOST'),
                     'port' =>  env('DB_PORT'),
-                    'database' => 'internexaschool',
+                    'database' => 'internexaschool_new',
                     'username' => env('DB_USERNAME'),
                     'password' => env('DB_PASSWORD'),
                     'timestamps' => false,
