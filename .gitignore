@@ -26,6 +26,6 @@ Homestead.json
 /public/teacher/
 storage/framework/views/
 .vscode/sftp.json
-/storage/
+# /storage/
 public/source_code/
 .vscode/settings.json
